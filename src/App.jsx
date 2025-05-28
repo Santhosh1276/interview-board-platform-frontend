@@ -11,7 +11,7 @@ import Dashboard from "./pages/Dashboard";
 import AppLayout from "./pages/AppLayout";
 import Companies from "./pages/Companies";
 import AddPost from "./pages/AddPost";
-import Interviews from "./pages/interviews";
+import Interviews from "./pages/Interviews";
 function App() {
   const [darkMode, setDarkMode] = useState(false);
   const toggleTheme = () => setDarkMode(!darkMode);
